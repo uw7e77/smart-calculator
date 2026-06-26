@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calcontainer">
+
+    <h1>Smart Calculator</h1>
+    <label for="firstnum">First number:</label>
+<input type="number" id="firstnum" placeholder="Enter first number">
+
+<label for="secondnum">Second number:</label>
+<input type="number" id="secondnum" placeholder="Enter second number">
+<button class="operation-btn" data-action="add">Add</button>
+<button class="operation-btn" data-action="sub">Subtract</button>
+<button class="operation-btn" data-action="mul">Multiply</button>
+<button class="operation-btn" data-action="div">Divide</button>
+<button class="operation-btn" data-action="per">Percentage</button>
+<button class="operation-btn" data-action="square">Square</button>
+<button class="operation-btn" data-action="sqrt">Square Root</button>
+<button class="operation-btn" data-action="pow">Power</button>
+<button class="operation-btn" data-action="clear">Clear</button>
+    <div id="result">Result: <span id="res">0</span></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
